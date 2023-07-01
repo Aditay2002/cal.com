@@ -111,7 +111,7 @@ export default function RoutingForms({
       description: t("download_responses_description"),
     },
   ];
- const validateFormName = (name: string): void => {
+  const validateFormName = (name: string): void => {
     if (isFormNameEmpty(name)) {
       throw new Error("Form name is required");
     }
